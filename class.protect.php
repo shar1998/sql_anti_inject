@@ -4,7 +4,7 @@
 	URL: https://itsale.kz
 	E-mail: alim.itsale@gmail.com
 	Разработка: Шолоханов Алимжан 
-    Защита от прямых ссылок.
+        Защита от SQL инъекций в PHP
 */
 
 class por_inject{ 
@@ -27,11 +27,7 @@ public function check1_text($text) {
 }
 
 public function portect_inject($array){
-global $app;
-
 $array=$this->check1_text($array);
-$array=$app->db->safe_sql($array);
-
 return $array;	
 }
 
