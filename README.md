@@ -2,7 +2,7 @@
  Защита от SQL инъекций в PHP
  Пример кода
  
- <?php\n
+ <?php<br>
  include "class.protect.php";
  $inj=new por_inject();
  
