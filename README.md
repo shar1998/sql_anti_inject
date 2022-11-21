@@ -1,7 +1,8 @@
 # sql_anti_inject_php
  Защита от SQL инъекций в PHP
  Пример кода
- <?php
+ 
+ <?php\n
  include "class.protect.php";
  $inj=new por_inject();
  
