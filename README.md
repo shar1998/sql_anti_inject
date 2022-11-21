@@ -5,7 +5,6 @@
 <?php
 include "class.protect.php";
 $inj=new por_inject();
- 
 $_GET=$inj->portectf($_GET);
 $_POST=$inj->portectf($_POST);
 $_SESSION=$inj->portectf($_SESSION);
